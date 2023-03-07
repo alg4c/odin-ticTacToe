@@ -1,0 +1,62 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.container {
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  width: 320px;
+}
+
+.field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  color: white;
+  font-size: 3em;
+}
+
+header {
+  width: 100%;
+  background-color: blue;
+  color: whitesmoke;
+}
+
+.title-h1 {
+  text-align: center;
+}
+
+form > * {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  background-color: blue;
+  color: white;
+  font: 18px Georgia;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-select {
+  display: inline;
+}

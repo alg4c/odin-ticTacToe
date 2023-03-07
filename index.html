@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Showdown</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="title-h1">Welcome to Tic Tac Toe</h1>
+    </header>
+    <main>
+      <form id="form" action="game.html">
+        <h2>Enter your name:</h2>
+        <fieldset>
+          <label for="player-1-name">Player 1:</label>
+          <div class="player-select">
+            <input
+              type="radio"
+              name="player-1-type-select"
+              id="computer"
+              value="computer"
+            />
+            <label for="player-1-type-select">Computer</label>
+            <input
+              type="radio"
+              name="player-1-type-select"
+              id="human"
+              value="human"
+            />
+            <label for="player-1-type-select">Human</label>
+          </div>
+          <input
+            type="text"
+            name="player-1-name"
+            id="player-1-name"
+            placeholder="Enter Player Name"
+            required
+          />
+        </fieldset>
+
+        <fieldset>
+          <label for="player-2-name">Player 1:</label>
+          <div class="player-select">
+            <input
+              type="radio"
+              name="player-2-type-select"
+              id="computer"
+              value="computer"
+            />
+            <label for="player-2-type-select">Computer</label>
+            <input
+              type="radio"
+              name="player-2-type-select"
+              id="human"
+              value="human"
+            />
+            <label for="player-2-type-select">Human</label>
+          </div>
+          <input
+            type="text"
+            name="player-2-name"
+            id="player-2-name"
+            placeholder="Enter Player Name"
+            required
+          />
+        </fieldset>
+        <button class="game-start">Begin</button>
+      </form>
+    </main>
+
+    <footer>Developed by Alex Griffith</footer>
+    <script src="./app.js"></script>
+  </body>
+</html>
